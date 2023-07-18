@@ -19,3 +19,15 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/keranjang', function () {
+    return view('keranjang');
+});
+Route::get('/tentang', function () {
+    return view('tentang');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
+});

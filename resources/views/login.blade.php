@@ -41,14 +41,14 @@
                 <div class="mt-4 sm:w-96">
                     <div>
                         <input type="text" id="email" placeholder="Email"
-                            class="w-full px-4 py-2 mt-2 font-semibold text-slate-800 border focus:outline-none focus:ring-1 focus:ring-[#A4907C]">
+                            class="w-full px-4 py-2 mt-2 font-semibold text-slate-800 border-2 border-slate-400 focus:outline-none focus:ring-1 focus:ring-[#A4907C]">
                     </div>
                     <div class="mt-4">
                         <input type="password" id="password" placeholder="Password"
-                            class="w-full px-4 py-2 mt-2 border font-semibold focus:outline-none focus:ring-1 focus:ring-[#A4907C]">
+                            class="w-full px-4 py-2 mt-2 border-2 border-slate-400 font-semibold focus:outline-none focus:ring-1 focus:ring-[#A4907C]">
                     </div>
                     <div class="flex items-baseline justify-between">
-                        <button class="w-full px-6 py-2  mt-4 text-white bg-[#867070] hover:bg-[#A4907C]"
+                        <button class="w-full px-6 py-2  mt-4 text-white font-semibold bg-[#867070] hover:bg-[#A4907C]"
                             id="login">Login</button>
                     </div>
                     <a href="" id="loginAdmin"
